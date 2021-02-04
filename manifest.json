@@ -1,0 +1,34 @@
+{
+  "manifest_version": 2,
+
+  "name": "PetriDish Score Retriever",
+  "description": "This extension will get the score information of a PetriDish game at the end of it.",
+  "version": "1.0",
+
+  "page_action": {
+   "default_icon": {
+     "16": "icons/petrilogo16.png",
+     "32": "icons/petrilogo32.png",
+     "48": "icons/petrilogo48.png",
+     "128": "icons/petrilogo128.png"
+     },
+   "default_popup": "popup.html"
+  },
+
+  "icons": {
+    "16": "icons/petrilogo16.png",
+    "32": "icons/petrilogo32.png",
+    "48": "icons/petrilogo48.png",
+    "128": "icons/petrilogo128.png"
+ },
+
+  "background": {
+    "scripts":["background.js"],
+    "persistent": false
+  },
+
+  "permissions": [
+   "storage",
+   "declarativeContent"
+   ]
+}
