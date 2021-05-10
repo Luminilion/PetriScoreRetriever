@@ -2,7 +2,7 @@
 Sets the PetriDish.pw website restriction
 */
 
-// test1
+// test2
 
 // Petridish website restriction
 var rulePetri = {
